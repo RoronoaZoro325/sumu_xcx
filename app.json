@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/behavior/behavior",
+    "pages/import_include/import_include"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+   "color": "#a9b7b7",
+   "selectedColor": "#ea9518",
+   "borderStyle": "black" ,
+   "list": [{
+     "selectedIconPath": "img/pet1_a.png",
+     "iconPath": "img/pet1_b.png",
+     "pagePath": "pages/index/index",
+     "text": "苏"
+   }, {
+    "selectedIconPath": "img/pet2_a.png",
+    "iconPath": "img/pet2_b.png",
+    "pagePath": "pages/index/index",
+    "text": "木"
+  },
+  {
+    "selectedIconPath": "img/pet3_a.png",
+    "iconPath": "img/pet3_b.png",
+    "pagePath": "pages/index/index",
+    "text": "空"
+  },{
+    "selectedIconPath": "img/pet4_a.png",
+    "iconPath": "img/pet4_b.png",
+    "pagePath": "pages/index/index",
+    "text": "青"
+  },
+  {
+    "selectedIconPath": "img/pet5_a.png",
+    "iconPath": "img/pet5_b.png",
+    "pagePath": "pages/index/index",
+    "text": "啊"
+  }
+   ]
+ }
+}

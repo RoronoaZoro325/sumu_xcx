@@ -1,0 +1,23 @@
+.sumu {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.sumu view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background: goldenrod;
+  margin: 1vw;
+  color: #673AB7;
+  font-weight: bold;
+  width: 46vw;
+  word-break: break-all;
+  padding: 1vw;
+  border-radius: 3vw;
+  box-shadow: #808080cc 0px 1px 31px 6px inset;
+}

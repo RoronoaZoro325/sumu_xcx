@@ -1,0 +1,3 @@
+<template name="item">
+  <text>我是被import引入进来的</text>
+</template>
