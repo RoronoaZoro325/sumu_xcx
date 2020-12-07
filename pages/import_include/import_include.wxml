@@ -1,2 +1,8 @@
-<import src="./demo.wxml"/>
-<template is="item"></template>
+<!-- <import src="./importDemo.wxml"/> -->
+<include src="./importDemo.wxml"/>
+
+
+
+<view bindtap="fatherClick">
+  <template is="item" data="{{...obj}}"></template>
+</view>

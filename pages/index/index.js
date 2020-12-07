@@ -60,5 +60,10 @@ Page({
     wx.navigateTo({
       url: '../import_include/import_include',
     })
+  },
+  goWxs(){
+    wx.navigateTo({
+      url: '../wxs/wxs',
+    })
   }
 })

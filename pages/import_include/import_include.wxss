@@ -1,1 +1,4 @@
 /* pages/import_include/import_include.wxss */
+.xixi{
+  color: red;
+}

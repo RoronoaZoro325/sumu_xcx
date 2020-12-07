@@ -1,0 +1,6 @@
+<include src="./include.wxml"/>
+<template name="item">
+  <button bindtap="clickView">我是被import引入进来的</button>
+  <text>{{b}}</text>
+</template>
+<button>include 引入</button>

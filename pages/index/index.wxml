@@ -2,7 +2,7 @@
     <view bindtap="import_include">import 和 include</view>
     <view bindtap="behavior">behavior用法</view>
     <view>component构造器</view>
-    <view>import 和 include</view>
+    <view bindtap="goWxs">WXS语法</view>
     <view>import 和 include</view>
     
 </view>

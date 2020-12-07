@@ -1,0 +1,6 @@
+<!--pages/wxs/wxs.wxml-->
+<text>{{a.zrc}}</text>
+<wxs module="a">
+var wlc = 1995
+module.exports.zrc = wlc
+</wxs>
