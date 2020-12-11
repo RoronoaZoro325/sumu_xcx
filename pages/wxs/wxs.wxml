@@ -1,6 +1,12 @@
 <!--pages/wxs/wxs.wxml-->
-<text>{{a.zrc}}</text>
+<button>{{b.test}}</button>
+<button>{{b.fn('zrc')}}</button>
+<button>{{b.testPrint()}}</button>
+<button>{{dl.test}}</button>
+<button>{{dl.testPrint()}}</button>
 <wxs module="a">
 var wlc = 1995
 module.exports.zrc = wlc
 </wxs>
+<wxs src="./demo.wxs" module="b"></wxs>
+<wxs src="./demo.wxs" module="dl"></wxs>

@@ -1,0 +1,21 @@
+<!-- 1.target与currenttarget,target指向发生事件的组件,currentTarget指向绑定事件的组件。
+
+2.touches,触摸事件，当前停留在屏幕中的触摸点信息的数组;changedTouches 数据格式同 touches,表示有变化的触摸点，如从无变有（touchstart），位置变化（touchmove），从有变无（touchend、touchcancel）
+
+3.bindtap和catchtap的区别：
+相同点：
+首先他们都是作为点击事件函数，就是点击时触发。在这个作用上他们是一样的，可以不做区分。
+不同点：
+他们的不同点主要是一个是冒泡的，一个是非冒泡的。 -->
+
+<view class="a" bindtap="aClick" id="aa">
+  aaa
+  <view class="b" bindtap="bClick" id="bb">
+    bbb
+    <view class="c" bindtap="cClick" id="cc">
+      ccc
+    </view>
+  </view>
+</view>
+<view class="d" bindtouchstart="cMove" id="dd">
+</view>

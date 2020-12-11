@@ -1,0 +1,18 @@
+var test = '1'
+var fn = function(a){
+  test = a
+  console.log(test,'testtttt')
+}
+var add =function(b){
+  return b+'已经二次处理过'
+}
+var testPrint = function(){
+  console.log(test,'xixiix')
+  return test
+}
+module.exports ={
+  test:test,
+  fn:fn,
+  add:add,
+  testPrint:testPrint
+}

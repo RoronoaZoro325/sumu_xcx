@@ -65,5 +65,10 @@ Page({
     wx.navigateTo({
       url: '../wxs/wxs',
     })
+  },
+  maoPao(){
+    wx.navigateTo({
+      url: '../maopao/maopao',
+    })
   }
 })

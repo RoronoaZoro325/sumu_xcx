@@ -1,34 +1,18 @@
-// pages/import_include/import_include.js
-import tempObj  from "./importDemo"
+// pages/maopao/maopao.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      list:[1,2,3],
-      name:'zrc',
-      obj:{
-        a:1,
-        b:'b'
-      }
-  },
-  fatherClick(e){
-    console.log(e,'ghj')
-    tempObj.clickView()
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(9090)
-    let obj = {
-      a:1,
-      b:2
-    }
-    let arr = [1,2,3,4,5]
-    console.log(...obj,...arr)
+
   },
 
   /**
@@ -78,5 +62,17 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  aClick(e){
+    console.log(e,'aa')
+  },
+  bClick(e){
+    console.log(e,'bb')
+  },
+  cClick(e){
+    console.log(e,'cc')
+  },
+  cMove(e){
+    console.log(e,'move')
   }
 })

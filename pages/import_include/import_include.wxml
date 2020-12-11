@@ -1,8 +1,13 @@
 <!-- <import src="./importDemo.wxml"/> -->
-<include src="./importDemo.wxml"/>
-
-
-
-<view bindtap="fatherClick">
+<!-- <include src="./importDemo.wxml"/> -->
+<!-- <view bindtap="fatherClick">
   <template is="item" data="{{...obj}}"></template>
+</view> -->
+<view>
+{{demo.test}}
+{{demo.add(obj.b)}}
+{{demo.fn('单例模式，所以值被其他文件改了！')}}
+{{demo.testPrint()}}
 </view>
+<wxs src="../wxs/demo.wxs" module="demo"/>
+
